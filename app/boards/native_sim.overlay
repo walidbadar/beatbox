@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2026 Muhammad Waleed Badar
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&uart1 {
+	status = "okay";
+	label = "UART_1";
+};
+
+&sdl_dc {
+	height = <320>;
+	width = <480>;
+};
